@@ -1,0 +1,26 @@
+{
+  "name": "bookjs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyRzmnv/bookjs.git"
+  },
+  "author": "AndreyRzmnv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyRzmnv/bookjs/issues"
+  },
+  "homepage": "https://github.com/AndreyRzmnv/bookjs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  }
+}
