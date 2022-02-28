@@ -12,7 +12,10 @@ const io = new Server(httpServer, {
   }
 });
 io.on("connection", (socket) => {
-  console.log('A user connected');
+  console.log('connection');
+  socket.on("message", (request, response) => {
+    console.log(request);
+  })
 });
 
 httpServer.listen(process.env.APP_PORT, () => {
